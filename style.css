@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Resetting */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+}
+
+button {
+  border: none;
+}
+
+/* Typography */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  line-height: 110%;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+}
+
+.heading-third {
+  font-size: 2.25rem;
+}
+
+.heading-secondary,
+.heading-third {
+  line-height: 120%;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-third,
+.nav-link {
+  font-weight: 500;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 160%;
+}
+
+/* Theme */
+
+:root {
+  --color--white: white;
+  --color--black: black;
+  --color--blue: #4891ff;
+  --color--grey: #e5e7eb;
+}
+
+.text-white {
+  color: var(--color--white);
+}
+
+.text-black {
+  color: var(--color--black);
+}
+
+.bg-blue {
+  background-color: var(--color--blue);
+}
+
+.bg-white {
+  background-color: var(--color--white);
+}
+
+.bg-black {
+  background-color: var(--color--black);
+}
+
+.text-grey {
+  color: var(--color--grey);
+}
+
+/* Layout */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.item-top {
+  align-items: start;
+}
+
+.justify-space-bw {
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.container {
+  max-width: 78.125rem;
+  margin: 0 auto;
+}
+
+/* Components */
+
+/* Header */
+
+header {
+  padding-block: 1.25rem;
+}
+
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.login-btn {
+  padding-block: 0.75rem;
+  padding-inline: 1.5rem;
+  border-radius: 0.625rem;
+  border: none;
+  line-height: 150%;
+}
+
+/* Hero Section */
+
+#hero-section {
+  height: 50rem;
+  padding-block: 4rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.hero-img {
+  background-image: url(../Growth/images/hero-img-desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#hero-section .lead {
+  padding-block: 3rem;
+}
+
+.btn-black,
+.btn-blue {
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  border-radius: 1rem;
+}
+
+/* Video Section */
+
+#video-section {
+  height: 60.1875rem;
+}
+
+/* About section */
+
+#about-section .container {
+  padding-block: 5.875rem;
+  border-top: 2px solid var(--color--grey);
+}
+
+.about-card {
+  min-width: 19.25rem;
+  padding: 2rem;
+  border-radius: 0.625rem;
+}
+
+#about-card-container {
+  margin-top: 4.75rem;
+}
+
+.about-card h2.lead {
+  margin-top: 2rem;
+}
+
+#about-card-container > * {
+  width: 32%;
+}
