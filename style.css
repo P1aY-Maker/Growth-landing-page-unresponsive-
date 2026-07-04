@@ -208,24 +208,23 @@ button {
 /* About section */
 
 #about-section .container {
-  padding-block: 5.875rem;
   border-top: 2px solid var(--color--grey);
+  padding-block: 5.875rem;
 }
 
 .about-card {
-  min-width: 19.25rem;
-  padding: 2rem;
+  padding: 3.1875rem;
   border-radius: 0.625rem;
 }
 
 #about-card-container {
-  margin-top: 4.75rem;
-}
-
-.about-card h2.lead {
-  margin-top: 2rem;
+  margin-top: 4.8225rem;
 }
 
 #about-card-container > * {
   width: 32%;
+}
+
+.about-card h2.lead {
+  margin-top: 2rem;
 }
