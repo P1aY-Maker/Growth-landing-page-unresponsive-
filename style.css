@@ -314,18 +314,12 @@ button {
 }
 
 .card-container ul {
-  padding-left: 1rem;
 }
 
 .card-content hr {
   border-color: #000000;
 }
 
-.price-btn-blue {
-  width: 100%;
-  margin-bottom: 3.5625rem;
-  margin-top: 2rem;
-}
 .price-txt {
   font-size: 0.875rem;
   font-weight: 400;
