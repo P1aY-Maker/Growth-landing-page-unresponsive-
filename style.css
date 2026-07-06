@@ -314,15 +314,11 @@ button {
 }
 
 .card-container ul {
-  border: var(--color--black) 1px solid;
-
   padding-left: 1rem;
 }
 
-hr {
-  border: none;
-  border-top: 2px solid rgb(0, 0, 0);
-  width: 100%;
+.card-content hr {
+  border-color: #000000;
 }
 
 .price-btn-blue {
