@@ -309,7 +309,8 @@ button {
 }
 
 #price-section .card-content {
-  max-width: 18rem;
+  max-width: 25rem;
+  padding: 2rem;
 }
 
 .card-container ul {
