@@ -310,7 +310,7 @@ button {
 
 #price-section .card-content {
   max-width: 25rem;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 .card-container ul {
@@ -333,6 +333,10 @@ hr {
 .price-txt {
   font-size: 0.875rem;
   font-weight: 400;
+}
+
+.fs-1 {
+  font-size: 1rem;
 }
 
 /* Utilities */
