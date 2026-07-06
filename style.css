@@ -298,6 +298,10 @@ button {
 
 /* Price-section */
 
+#price-section {
+  padding-block: 5.875rem;
+}
+
 #price-section .card-container {
   border-radius: 0.625rem;
   border: 0.1875rem solid var(--color--black);
@@ -327,4 +331,10 @@ hr {
 }
 .price-txt {
   font-size: 0.875rem;
+}
+
+/* Utilities */
+
+.w-full {
+  width: 100%;
 }
