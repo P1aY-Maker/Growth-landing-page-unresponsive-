@@ -201,12 +201,11 @@ button {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: black;
-    color: white;
-    top: 0;
+    background-color: var(--color--blue);
     left: 0;
+    top: 0;
     justify-content: center;
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
 }
 
@@ -248,24 +247,28 @@ button {
 @media screen and (max-width: 40.5rem) {
   .hero-img {
     background-image: url("./images/background-img-mobile.png");
-    background-size: calc(100%-3rem) auto;
+    background-size: calc(100% - 3rem) auto;
   }
   #hero-section {
     height: 100vh;
-    padding: 2rem;
+    padding-block: 2rem;
     text-align: center;
   }
+
+  #hero-section ul button {
+    width: 100%;
+  }
+
   .lead {
     padding: 1.5rem;
   }
+
   #hero-section ul {
     flex-direction: column;
     align-items: stretch;
   }
-  #hero-section ul button {
-    width: 100%;
-  }
 }
+
 /* Video Section */
 
 #video-section {
@@ -294,37 +297,4 @@ button {
 
 .about-card h2.lead {
   margin-top: 2rem;
-}
-
-/* Price-section */
-
-#price-section .card-container {
-  border-radius: 0.625rem;
-  border: 0.1875rem solid var(--color--black);
-  max-width: 25rem;
-}
-
-#price-section .card-content {
-  max-width: 18rem;
-}
-
-.card-container ul {
-  border: var(--color--black) 1px solid;
-
-  padding-left: 1rem;
-}
-
-hr {
-  border: none;
-  border-top: 2px solid rgb(0, 0, 0);
-  width: 100%;
-}
-
-.price-btn-blue {
-  width: 100%;
-  margin-bottom: 3.5625rem;
-  margin-top: 2rem;
-}
-.price-txt {
-  font-size: 0.875rem;
 }
