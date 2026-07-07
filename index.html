@@ -1,182 +1,230 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Growth : RE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header-->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Growth : RE</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <!--Header-->
-
-  <header>
-    <div class="container flex justify-space-bw item-center">
-      <a href="#"> <img src="./images/logo-dark.png" alt="Growth-logo" /></a>
-      <ul class="flex gap-2 item-center">
-        <li><a href="#" class="nav-link">Features</a></li>
-        <li><a href="#" class="nav-link">About Us</a></li>
-        <li><a href="#" class="nav-link">Blog</a></li>
-        <li><button class="login-btn bg-black text-white">Log in</button></li>
-      </ul>
-      <div id="hamburger-menu">
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#00000" class="bi bi-list"
-          viewBox="0 0 16 16">
-          <path fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-        </svg>
-      </div>
-    </div>
-  </header>
-
-  <!--Hero Section-->
-
-  <section id="hero-section">
-    <div class="container h-full hero-img">
-      <h1 class="heading-primary">
-        A powerful solution to grow <br />
-        your startup. Fast!
-      </h1>
-      <p class="lead">
-        Organise, collaborate, and track progress seamlessly with <br />
-        our one-stop-shop startup growth tool.
-      </p>
-      <ul class="flex item-center gap-1">
-        <li>
-          <button class="btn-blue bg-blue text-white">Get started</button>
-        </li>
-        <li>
-          <button class="btn-black bg-black text-white">Book a demo</button>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!--Video Section-->
-
-  <section id="video-section" class="bg-black">
-    <div class="container h-full justify-center flex flex-col item-center text-center gap-4">
-      <h1 class="heading-secondary text-white">
-        See how it works and get started <br />
-        in less than 2 minutes
-      </h1>
-      <img src="./images/video.png" alt="" class="video-img" />
-      <button class="btn-blue bg-blue text-white video-btn">
-        Get started
-      </button>
-    </div>
-  </section>
-
-  <!--About Section-->
-
-  <section id="about-section" class="bg-black">
-    <!-- Main container -->
-
-    <div class="container">
-      <!-- Heading h2 -->
-      <h2 class="heading-secondary text-white">
-        Don't just take our word for it, see <br />
-        the success stories from <br />
-        businesses just like yours.
-      </h2>
-
-      <!-- Main card container for all cards. -->
-
-      <div id="about-card-container" class="flex justify-space-bw item-top">
-        <!-- First card. -->
-        <div class="about-card bg-white">
-          <p class="lead">
-            <i>
-              “Our business has seen a significant increase in productivity
-              since we started using the Growth app.”
-            </i>
-          </p>
-          <h2 class="lead">Katherine Smith</h2>
-          <p class="lead">Capodopera</p>
-        </div>
-        <!-- Second card. -->
-        <div class="about-card bg-white">
-          <p class="lead">
-            <i>
-              “As a small business owner, it's important to have a tool that
-              can help me keep track of everything. The Growth app has been a
-              lifesaver for me, allowing me to manage my contacts, schedule
-              appointments, and track progress all in one place..”
-            </i>
-          </p>
-          <h2 class="lead">Jonathan Lee</h2>
-          <p class="lead">Red Bolt</p>
-        </div>
-        <!-- Third card. -->
-        <div class="about-card bg-white">
-          <p class="lead">
-            <i>
-              “The dashboards and reporting feature has provided valuable
-              insights into our performance and helped us make data-driven
-              decisions. It's a game changer for us.”
-            </i>
-          </p>
-          <h2 class="lead">David Wilson</h2>
-          <p class="lead">Slide</p>
+    <header>
+      <div class="container flex justify-space-bw item-center">
+        <a href="#"> <img src="./images/logo-dark.png" alt="Growth-logo" /></a>
+        <ul class="flex gap-2 item-center">
+          <li><a href="#" class="nav-link">Features</a></li>
+          <li><a href="#" class="nav-link">About Us</a></li>
+          <li><a href="#" class="nav-link">Blog</a></li>
+          <li><button class="login-btn bg-black text-white">Log in</button></li>
+        </ul>
+        <div id="hamburger-menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="#00000"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Price Section -->
+    <!--Hero Section-->
 
-  <section id="price-section" class="">
-    <div class="container flex flex-col justify-center item-center gap-2">
-      <h2 class="heading-secondary">Pricing</h2>
-      <p>
-        Start free and scale while you grow. No hidden fees. Unlimited users
-        for free.
-      </p>
-      <div class="card-container justify-center flex">
-        <div class="card-content flex flex-col gap-2">
-          <h3 class="heading-third">Simple</h3>
-          <p class="fs-1">
-            Keep track of your contacts, gain <br />
-            valuable insights, analyse live data <br />
-            and performance metrics.
-          </p>
-          <h3 class="heading-third">
-            FREE<span class="price-txt"> *No credit card required</span>
-          </h3>
-          <hr />
-          <ul class="flex flex-col gap-1">
-            <li class="flex gap-1">
-              <i class="fa-solid fa-check"></i>
-              <p class="fs-1">Real-time monitoring </p>
-            </li>
-            <li class="flex gap-1">
-              <i class="fa-solid fa-check"></i>
+    <section id="hero-section">
+      <div class="container h-full hero-img">
+        <h1 class="heading-primary">
+          A powerful solution to grow <br />
+          your startup. Fast!
+        </h1>
+        <p class="lead">
+          Organise, collaborate, and track progress seamlessly with <br />
+          our one-stop-shop startup growth tool.
+        </p>
+        <ul class="flex item-center gap-1">
+          <li>
+            <button class="btn-blue bg-blue text-white">Get started</button>
+          </li>
+          <li>
+            <button class="btn-black bg-black text-white">Book a demo</button>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-              <p class="fs-1">Track key performance
-                indicators</p>
-            </li>
-            <li class="flex gap-1">
-              <i class="fa-solid fa-check"></i>
+    <!--Video Section-->
 
-              <p class="fs-1">Schedule appointments</p>
-            </li>
-            <li class="flex gap-1">
-              <i class="fa-solid fa-check"></i>
-              <p class="fs-1">Organize, delegate and keep
-                track of tasks</p>
-            </li>
-          </ul>
-          <button class="btn-blue bg-blue text-white price-btn-blue">
-            Get started
-          </button>
+    <section id="video-section" class="bg-black">
+      <div
+        class="container h-full justify-center flex flex-col item-center text-center gap-4"
+      >
+        <h1 class="heading-secondary text-white">
+          See how it works and get started <br />
+          in less than 2 minutes
+        </h1>
+        <img src="./images/video.png" alt="" class="video-img" />
+        <button class="btn-blue bg-blue text-white video-btn">
+          Get started
+        </button>
+      </div>
+    </section>
+
+    <!--About Section-->
+
+    <section id="about-section" class="bg-black">
+      <!-- Main container -->
+
+      <div class="container">
+        <!-- Heading h2 -->
+        <h2 class="heading-secondary text-white">
+          Don't just take our word for it, see <br />
+          the success stories from <br />
+          businesses just like yours.
+        </h2>
+
+        <!-- Main card container for all cards. -->
+
+        <div id="about-card-container" class="flex justify-space-bw item-top">
+          <!-- First card. -->
+          <div class="about-card bg-white">
+            <p class="lead">
+              <i>
+                “Our business has seen a significant increase in productivity
+                since we started using the Growth app.”
+              </i>
+            </p>
+            <h2 class="lead">Katherine Smith</h2>
+            <p class="lead">Capodopera</p>
+          </div>
+          <!-- Second card. -->
+          <div class="about-card bg-white">
+            <p class="lead">
+              <i>
+                “As a small business owner, it's important to have a tool that
+                can help me keep track of everything. The Growth app has been a
+                lifesaver for me, allowing me to manage my contacts, schedule
+                appointments, and track progress all in one place..”
+              </i>
+            </p>
+            <h2 class="lead">Jonathan Lee</h2>
+            <p class="lead">Red Bolt</p>
+          </div>
+          <!-- Third card. -->
+          <div class="about-card bg-white">
+            <p class="lead">
+              <i>
+                “The dashboards and reporting feature has provided valuable
+                insights into our performance and helped us make data-driven
+                decisions. It's a game changer for us.”
+              </i>
+            </p>
+            <h2 class="lead">David Wilson</h2>
+            <p class="lead">Slide</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-</body>
+    </section>
 
+    <!-- Price Section -->
+
+    <section id="price-section" class="">
+      <div class="container justify-center flex flex-col item-center gap-4">
+        <h2 class="heading-secondary">Pricing</h2>
+        <p class="fs-1">
+          Start free and scale while you grow. No hidden fees. Unlimited users
+          for free.
+        </p>
+        <div id="price-card-container" class="flex gap-4 item-center">
+          <!-- Card 1 -->
+          <div class="card-container">
+            <div class="card-content justify-center flex flex-col gap-2">
+              <h3 class="heading-third">Simple</h3>
+              <p class="price-txt">
+                Keep track of your contacts, gain <br />
+                valuable insights, analyse live data <br />
+                and performance metrics.
+              </p>
+              <h3 class="heading-third">
+                FREE<span class="price-txt"> *No credit card required </span>
+              </h3>
+
+              <hr class="hr-black" />
+
+              <ul class="flex flex-col gap-2">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Real-time monitoring
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>Track key performance
+                  indicators
+                </li>
+                <li><i class="fa-solid fa-check"></i>Schedule appointments</li>
+                <li>
+                  <i class="fa-solid fa-check"></i>Organize, delegate and keep
+                  track of tasks
+                </li>
+              </ul>
+              <button class="btn-blue bg-blue text-white price-btn-blue">
+                Get started
+              </button>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card-container bg-black text-white">
+            <div class="card-content flex-col flex justify-center gap-2">
+              <h3 class="heading-third">Premium</h3>
+              <p class="fs-1">
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics.
+              </p>
+              <h3 class="heading-third">
+                $49 <span class="lead">/month</span>
+              </h3>
+              <hr class="hr-white" />
+              <p class="fs-1">
+                Everything from the free plan <br />
+                plus:
+              </p>
+              <ul class="gap-2 flex-col flex">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Data-driven decisions
+                </li>
+
+                <li><i class="fa-solid fa-check"></i>Data visualisation</li>
+                <li><i class="fa-solid fa-check"></i>Schedule appointments</li>
+                <li>
+                  <i class="fa-solid fa-check"></i>Store and organise contact
+                  information
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>Teal-time communication tools
+                  for messaging and video conferencing
+                </li>
+              </ul>
+              <button class="btn-blue bg-blue text-white price-btn-blue">
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

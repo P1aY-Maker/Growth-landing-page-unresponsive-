@@ -299,7 +299,7 @@ button {
 /* Price-section */
 
 #price-section {
-  padding-block: 5.875rem;
+  padding-block: 5rem;
 }
 
 #price-section .card-container {
@@ -310,11 +310,11 @@ button {
 
 #price-section .card-content {
   max-width: 25rem;
-  padding: 3rem;
+  padding: 3.6875rem;
 }
 
-.card-content hr {
-  border-color: #000000;
+.hr-black {
+  border-color: rgb(0, 0, 0);
 }
 
 .price-txt {
@@ -326,8 +326,13 @@ button {
   font-size: 1rem;
 }
 
-/* Utilities */
+/* Second card */
 
-.w-full {
+.hr-white {
+  border-color: rgb(255, 231, 231);
   width: 100%;
+}
+
+#price-card-container > * {
+  width: 50%;
 }
