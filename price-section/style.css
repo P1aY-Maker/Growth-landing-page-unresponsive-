@@ -336,3 +336,7 @@ button {
 #price-card-container > * {
   width: 50%;
 }
+
+.price-btn-blue {
+  width: 100%;
+}
